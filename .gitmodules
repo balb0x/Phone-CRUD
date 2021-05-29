@@ -1,0 +1,6 @@
+[submodule "phone-crud-backend"]
+	path = phone-crud-backend
+	url = git@github.com:balb0x/phone-crud-backend.git
+[submodule "phone-crud-frontend"]
+	path = phone-crud-frontend
+	url = git@github.com:balb0x/phone-crud-frontend.git

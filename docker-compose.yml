@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:latest
+  backend:
+    build: ./phone-crud-backend
+    ports:
+      - "5000:5000"
+    environment:
+      WAIT_HOSTS: mongodb:27017
+    depends_on:
+      - mongodb
+  frontend:
+    build: ./phone-crud-frontend
+    ports:
+      - "3000:3000"
