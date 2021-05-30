@@ -17,7 +17,13 @@ For a more detailed information of the components of the projects, follow the li
 ### Sample
 ![Alt Text](resources/sample.gif)
 
+### Download
 
+To clone this repo, you need to clone also the submodules. Type this to clone:
+
+```
+git clone --recurse-submodules --remote-submodules git@github.com:balb0x/Phone-CRUD.git
+```
 
 ### Deployment
 
