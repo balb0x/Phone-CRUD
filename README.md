@@ -10,7 +10,7 @@ The web interface is a React App, you can find the source code and its documenta
 For the backend the project uses python flask to publish an API rest interfacing with a MongoDB Database. The source code and documentation is found here:
 [phone-crud-backend](https://github.com/balb0x/phone-crud-backend)
 
-Those repositories can be deployed separately (Information on how to run them inside the projects) or can be deployed using de `docker-compose.yml` found in this repository, instructions below.
+Those repositories can be deployed separately (Information on how to run them inside the projects) or can be deployed using the `docker-compose.yml` found in this repository, instructions below.
 
 For a more detailed information of the components of the projects, follow the links. 
 
