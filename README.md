@@ -1,6 +1,6 @@
-# Phone CRUD
+# Phone CRUD [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The goal of this project is to have a web interface to view and edit records on a database. This project includes a frontend and a backend, referenced as external repositories. 
+The goal of this project is to have a simple web interface to view and edit records on a database. This project includes a frontend and a backend, referenced as external repositories. 
 
 ### Project structure
 
@@ -10,7 +10,13 @@ The web interface is a React App, you can find the source code and its documenta
 For the backend the project uses python flask to publish an API rest interfacing with a MongoDB Database. The source code and documentation is found here:
 [phone-crud-backend](https://github.com/balb0x/phone-crud-backend)
 
+Those repositories can be deployed separately (Information on how to run them inside the projects) or can be deployed using de `docker-compose.yml` found in this repository, instructions below.
+
 For a more detailed information of the components of the projects, follow the links. 
+
+### Sample
+![Alt Text](resources/sample.gif)
+
 
 
 ### Deployment
@@ -34,3 +40,20 @@ The docker container runs 3 services, a mongo instance and the frontend/backend 
 - The frontend exposes the web app on port `3000`
 
 - The database is handled in the container
+
+To load the web app once the container is running, enter this URL on your navigator:
+
+```
+http://127.0.0.1:3000
+```
+
+The default credentials for the admin panel are:
+
+```
+admin:password (phone and brand privileges)
+operator:password (phone privileges)
+```
+
+### License
+
+Phone CRUD is [MIT licensed](./LICENSE)
